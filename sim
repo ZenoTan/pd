@@ -1,0 +1,1 @@
+./bin/pd-simulator -case="import-data" -pd="http://127.0.0.1:2379" -simLog warn

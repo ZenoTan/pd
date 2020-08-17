@@ -1,0 +1,1 @@
+./bin/pd-analysis -input temp_log -operator balance-region -style transfer-counter

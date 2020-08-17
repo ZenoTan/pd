@@ -65,14 +65,14 @@ func newImportData() *Case {
 	table3 := string(codec.EncodeBytes(codec.GenerateTableKey(3)))
 	table5 := string(codec.EncodeBytes(codec.GenerateTableKey(5)))
 	e.Step = func(tick int64) map[string]int64 {
-		if tick < 100 {
-			return map[string]int64{
-				table3: 4 * MB,
-				table5: 32 * MB,
-			}
-		}
+		//if tick < 100 {
+		//	return map[string]int64{
+		//		table3: 4 * MB,
+		//		table5: 32 * MB,
+		//	}
+		//}
 		return map[string]int64{
-			table2: 2 * MB,
+			//table2: 2 * MB,
 			table3: 4 * MB,
 			table5: 16 * MB,
 		}
