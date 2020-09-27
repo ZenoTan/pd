@@ -102,6 +102,7 @@ var CaseMap = map[string]func() *Case{
 	"hot-write":                newHotWrite,
 	"makeup-down-replicas":     newMakeupDownReplicas,
 	"import-data":              newImportData,
+	"empty-region":             newEmptyRegion,
 }
 
 // NewCase creates a new case.
